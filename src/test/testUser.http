@@ -1,0 +1,21 @@
+GET http://localhost:3000
+
+
+###
+GET http://localhost:3000/login
+
+###
+POST http://localhost:3000/user/createUser
+Content-Type: application/json
+
+{
+    "email": "meo@gmail.com",
+    "dob": "19/07/2001",
+    "firstname": "first", 
+    "lastname": "last", 
+    "phone": "0911352", 
+    "cccd": "040201", 
+    "bhxh": "so bhxh", 
+    "address": "Ha Noi", 
+    "roles": ["employee", "hr"]
+}
