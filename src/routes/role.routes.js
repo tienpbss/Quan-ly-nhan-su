@@ -6,7 +6,7 @@ const router = express.Router();
 router.post('/createRole', roleControllers.createRole);
 router.get('/viewAllRoles', roleControllers.viewAllRoles);
 router.get('/viewRole/:_idRole', roleControllers.viewRole);
-router.put('/editRole/:_idRole', roleControllers.editRole);
+router.patch('/editRole/:_idRole', roleControllers.editRole);
 router.delete('/deleteRole/:_idRole', roleControllers.deleteRole);
 
 module.exports = router;
