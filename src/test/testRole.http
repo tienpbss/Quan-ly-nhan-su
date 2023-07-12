@@ -5,7 +5,7 @@ POST http://localhost:3000/role/createRole
 Content-Type: application/json
 
 {
-    "name": "admin",
+    "name": "test",
     "permissions": []
 }
 
@@ -14,19 +14,19 @@ GET  http://localhost:3000/role/viewAllRoles
 
 
 ### view role
-GET  http://localhost:3000/role/viewRole/64ad2692f459090ffdd724168
+GET  http://localhost:3000/role/viewRole/64ae16e4dad9d8757cc2c833
 
 ### edit role
-PUT  http://localhost:3000/role/editRole/64ad269245990ffdd724168
+PUT  http://localhost:3000/role/editRole/64ae16e4dad9d8757cc2c833
 Content-Type: application/json
 
 {
-    "name": "admin",
+    "name": "test updated",
     "permissions": []
 }
 
 ### delete role
-DELETE http://localhost:3000/role/deleteRole/64ad40e6339519f7027a5631
+DELETE http://localhost:3000/role/deleteRole/64ae16e4dad9d8757cc2c833
 
 
 
